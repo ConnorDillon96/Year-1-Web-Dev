@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>welcome</title>
+    <script src="jscript/msgbox.js"></script>
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+    <script>
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-floating"};
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+    <!-- End Cookie Consent plugin -->
+
+</head>
+
+<body id="body" onload="default1()">
+<div id="header">
+    <a href="index.html">
+        <img style="height: 100%" src="images/007_logo.png" alt="007" ></a>
+</div>
+
+<div class="NavBar">
+  <table>
+  <tr>
+      <th class="navBox"><a href="signup.html"> Sign up</a></th>
+      <th class="navBox"><a href="cinema.html"> Cinema</a> </th>
+      <th class="navBox"><a href="actors.html"> Actors</a> </th>
+      <th class="navBox"><a href="gadgets.html"> Gadgets</a> </th>
+      <th class="navBox"><a href="cars.html"> Cars</a> </th>
+      <th class="navBox"><a href="stunts.html"> Stunts</a> </th>
+      <th class="navBox"><a href="documentation.html"> Documentation</a> </th>
+      <th class="navBox"><a href="info.html"> Info</a> </th>
+
+
+
+  </tr>
+</table>
+</div>
+
+<div class="nday">
+<button type="button" onclick="night()" class="btn">NIGHT</button>
+<button type="button" onclick="day()" class="btn">DAY</button>
+</div>
+
+<div class="backbox">
+    <div class="contentbox" id="contentbox0">
+        <div class="centerme">
+        <h3>Information</h3> <br />
+            <p>This website will walk you through many fan favourite moments from the James Bond Franchise, such as the Movies,Actors,Gadgets,Stunts and cars </p>
+            <p>If you would like to receive newsletters stay up to date with all things Bond! Sign up below.</p> </div>
+    </div>
+</div>
+
+<div class="backbox">
+    <div class="contentbox" id="contentbox1">
+        <div class="centerme">
+        <h3>Agent signup!</h3>
+        <form>
+            <label for="bday">When is your birthday?</label>
+            <input type="date" name="bday" id="bday"><br />
+            <label for="email">Email address:</label>
+            <input type="email" name="email" id="email" title="Please enter an email address"><br />
+            <label for="name">Please enter a agent credentials:</label>
+            <input type="text" name="name" id="name"><br />
+            <label for="rate">Using the slider please select your clearance level:</label>
+            <input type="range" name="rating" id="rate" min="0" max="10" step="2" value="0"><br />
+            <label for="dcode">Password</label>
+            <input type="password" id="dcode" name="psw"> <br/>
+            <label>Password</label>
+            <label for="radio0"></label><input type="radio" name="gender" value="male" id="radio0" > Male
+            <label for="radio1"></label><input type="radio" name="gender" value="female" id="radio1"> Female
+            <label for="radio2"></label><input type="radio" name="gender" value="other" id="radio2" checked> Other
+
+            <p>receive mission updates?</p>
+            <label for="yes"></label><input type="checkbox" name="yes" id="yes"> <br />
+            <input type="submit" onclick="msg()">
+
+        </form>
+        </div>
+    </div>
+</div>
+
+<footer id="footer">
+<a href="https://www.rottentomatoes.com/"> RottenTomatoes</a> <br/>
+<a href="https://www.imdb.com/"> IMDB</a> <br/>
+    <script src="jscript/nightday.js"></script>
+
+</footer>
+</body>
+</html>

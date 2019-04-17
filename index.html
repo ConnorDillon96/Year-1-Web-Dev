@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+
+    <style>
+        .NavBar
+        {
+            background-color: rgba(145, 148, 143, 0.78);
+            position: relative;
+            top: 12.5%;
+            height: 3.5%;
+            width: 100%;
+        }
+
+        #footer
+        {
+            background-color:#666b64;
+            clear:both;
+            text-align:center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width:100%;
+        }
+
+        #header
+        {
+            background-color: #363835;
+            position:relative;
+            top: 0px;
+            left: 0px;
+            width:100%;
+            height:100px;
+            font-size: large;
+            text-align: center;
+        }
+        .navBox
+        {
+            background-color: #808080;
+            color: #808080;
+            height: 100%;
+            width: 17%;
+        }
+
+        .contentbox{
+            width: 98%;
+            left: 1%;
+            position: relative;
+            background-color: white;
+            box-shadow: 2px 2px 4px 4px grey;
+            overflow: auto;
+            min-height: 300px;
+            height: auto;
+
+        }
+
+        .contentboxdark{
+            width: 98%;
+            left: 1%;
+            position: relative;
+            background-color: #000000;
+            box-shadow: 2px 2px 4px 4px grey;
+            min-height: 300px;
+            height: 100%;
+            overflow: hidden;
+            color: white;
+        .h3: white;
+        }
+
+
+        .content{
+            position: relative;
+            width: 75%;
+            height: 100%;
+            float:left;
+            display: inline-block;
+            padding: 4% 2% 2%;
+
+        }
+
+        .backbox{
+            width: 90%;
+            left: 5%;
+            position: relative;
+            background-color: #dee2e8;
+            margin-top: 50px;
+            font-family: Arial, serif;
+            color: #047e92;
+            font-weight: 500;
+            padding: 1%;
+            height: auto;
+            margin-bottom: 50px;
+
+        }
+
+        a:link
+        {
+            color:white;
+            text-decoration: underline;
+        }
+
+        a:visited
+        {
+            color: #363835;
+            text-decoration: none;
+        }
+
+        td, th {
+            border: solid 1px black;
+        }
+
+        h3 {
+            color: #00bfb5;
+        }
+        .night{
+            background: #294b82;
+
+        }
+        .day{
+            background: #294b82;
+        }
+        .nday{
+            position:absolute;
+            top: 4%;
+            left: 5%;
+        }
+        .default{
+            background: #294b82;
+        }
+
+        html,body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129016107-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129016107-1');
+    </script>
+
+
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+    <script>
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-floating"};
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+    <!-- End Cookie Consent plugin -->
+
+
+</head>
+
+<body id="body" onload="default1()">
+<div id="header">
+    <a href="index.html">
+        <img style="height: 100%" src="images/007_logo.png" alt="007" ></a>
+</div>
+
+<div class="NavBar">
+    <table>
+        <tr>
+            <th class="navBox"><a href="signup.html"> Sign up</a></th>
+            <th class="navBox"><a href="cinema.html"> Cinema</a> </th>
+            <th class="navBox"><a href="actors.html"> Actors</a> </th>
+            <th class="navBox"><a href="gadgets.html"> Gadgets</a> </th>
+            <th class="navBox"><a href="cars.html"> Cars</a> </th>
+            <th class="navBox"><a href="stunts.html"> Stunts</a> </th>
+            <th class="navBox"><a href="documentation.html"> Documentation</a> </th>
+            <th class="navBox"><a href="info.html"> Info</a> </th>
+        </tr>
+    </table>
+</div>
+
+<div class="nday">
+    <button type="button" onclick="night()" class="btn">NIGHT</button>
+    <button type="button" onclick="day()" class="btn">DAY</button>
+</div>
+
+<div class="backbox">
+    <div class="contentbox" id="contentbox0">
+        <div class="content">
+            <h3> Hello welcome to my website. We hope you enjoy your stay! </h3>
+            <p>the site was designed to inform and display some james bond information that may have not been know previously. If there is anything else you feel you could add or recommend for the website please contact us at: 007@gmail.com. At the top of the page we have the navigation bar where you will be able to navigate to other webpages such as, cinema, actors, stunts, gadgets, cars and info. If you find the background color to bright or to dark it can be changed with the optional buttons named "NIGHT" & "DAY" located at the top left of the page and finally, if you enjoy the sight and would like to recive updates and support us please sign up and join MI6 we would appreciate it greatly! </p>
+            <h3>Contact Us</h3>
+            Realemail@email.com
+        </div>
+    </div>
+</div>
+
+<div class="backbox">
+    <div class="contentbox " id="contentbox">
+        <div class="content">
+            <h3> Website disclaimer </h3>
+           <p> The information contained in this website is for general information purposes only. The information is provided by myself and sourced from IMDB/Rottentomatoes and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
+            In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.
+            Through this website you are able to link to other websites which are not under the control of us. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.
+            Every effort is made to keep the website up and running smoothly. However, we takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
+           </p>
+            <h3>Contact Us</h3>
+            Realemail@email.com
+        </div>
+    </div>
+</div>
+
+
+<div class="nday">
+    <button type="button" onclick="night()" class="btn">NIGHT</button>
+    <button type="button" onclick="day()" class="btn">DAY</button>
+</div>
+
+<footer id="footer">
+    <a href="https://www.rottentomatoes.com/"> RottenTomatoes</a> <br/>
+    <a href="https://www.imdb.com/"> IMDB</a> <br/>
+    <script>
+        loaddarkness();
+
+        function default1(){
+            body.className='default';
+        }
+
+        function day(){
+            var elementArray = document.getElementsByClassName("contentboxdark");
+
+            for(var i = (elementArray.length - 1); i >= 0; i--) {
+                elementArray[i].className = "contentbox";
+            }
+            sessionStorage.setItem('darkness','False');
+        }
+
+        function night() {
+            var elementArray = document.getElementsByClassName("contentbox");
+
+            for(var i = (elementArray.length - 1); i >= 0; i--) {
+                elementArray[i].className = "contentboxdark";
+            }
+            sessionStorage.setItem('darkness','True');
+
+        }
+
+        function loaddarkness() {
+            if(sessionStorage.getItem('darkness') == 'True'){
+                night();
+            }else{
+                day();
+            }
+        }
+    </script>
+</footer>
+</body>
+</html>

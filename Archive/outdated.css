@@ -1,0 +1,75 @@
+.container
+{
+	background-color:silver;
+	height:60%;
+	width:25%;
+	float:left;
+	color: black;
+	top: 25%;
+	position: absolute;
+	border-radius: 25px;
+	text-align: center;
+}
+
+#header
+{
+	background-color:#363835;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	height:100px;
+	font-size: large;
+	text-align: center
+}
+
+.NavBar
+{
+	background-color:#666b64;
+	left:0px;
+	height:40px;
+	position: absolute;
+	top:100px;
+	width:100%;
+
+
+}
+
+.content
+{
+	text-align: center;
+}
+
+ 
+#footer
+{
+	background-color:#666b64;
+	clear:both;
+	text-align:center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width:100%;
+}
+
+
+a:link 
+{
+  color:white;
+  text-decoration: underline;
+}
+
+a:visited 
+{
+  color: #363835;
+  text-decoration: none; 
+}
+.navBox
+{
+    background-color: grey;
+}
+
+.navBox:hover
+{
+    background-color: darkgrey;
+}

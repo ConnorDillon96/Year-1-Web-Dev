@@ -1,0 +1,253 @@
+td, th {
+    border: solid 1px black;
+}
+
+h3 {
+    color: #00bfb5;
+}
+
+/*---------------------------main layout------------------------------*/
+#header
+{
+	background-color: #363835;
+	position:relative;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	height:100px;
+	font-size: large;
+	text-align: center;
+}
+
+.NavBar
+{
+	background-color: rgba(145, 148, 143, 0.78);
+	position:relative;
+	top:12.5%;
+    height: 3.5%;
+	width:100%;
+
+}
+
+.navBox:hover
+{
+    background-color: darkgrey;
+}
+
+.navBox
+{
+    background-color: #808080;
+    color: #808080;
+    height: 100%;
+    width: 17%;
+}
+
+.contentbox{
+    width: 98%;
+    left: 1%;
+    position: relative;
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px grey;
+    min-height: 300px;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.contentboxdark{
+    width: 98%;
+    left: 1%;
+    position: relative;
+    background-color: #000000;
+    box-shadow: 2px 2px 4px 4px grey;
+    min-height: 300px;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    .h3: white;
+}
+
+.backbox{
+    width: 90%;
+    left: 5%;
+    position: relative;
+    background-color: #dee2e8;
+    margin-top: 50px;
+    font-family: Arial, serif;
+    color: #047e92;
+    font-weight: 500;
+    padding: 1%;
+    height: auto;
+    margin-bottom: 50px;
+
+}
+
+#footer
+{
+    background-color: #808080;
+    clear:both;
+    text-align:center; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    color: white;
+}
+
+/*----------------------------------------------------*/
+.list1{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    float:left;
+    display: inline-block;
+}
+.list2{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    float:left;
+    display: inline-block;
+
+}
+
+.content{
+    position: relative;
+    width: 75%;
+    height: 100%;
+    float:left;
+    display: inline-block;
+    padding: 4% 2% 2%;
+
+}
+
+.header1{
+    width: auto;
+    position: relative;
+    padding-left: 10px;
+}
+
+.image0{
+    position: relative;
+    float: right;
+    padding: 1%;
+
+}
+
+.audio{
+    padding: 1%;
+
+}
+
+.table{
+    position: relative;
+    float:left;
+    left: 15%;
+    padding: 4% 2% 2%;
+    width: 30%;
+}
+
+.slides{
+    position: relative;
+    float: right;
+    top: 6vw;
+    width: 40%;
+
+}
+
+.contentvid{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float:left;
+    display: inline-block;
+    padding: 4% 2% 2%;
+
+}
+
+.video1{
+    position: relative;
+    float: right;
+    padding: 1%;
+}
+
+/*----------------------------------------------------*/
+a:link
+{
+  color:white;
+  text-decoration: underline;
+}
+
+a:visited 
+{
+  color: #363835;
+  text-decoration: none; 
+}
+
+.centerme{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* testing below */
+
+.embed-container {
+    position: relative; padding-bottom: 33%; height: 200px; overflow: hidden; max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+}
+
+
+
+.default{
+    background: #294b82;
+}
+
+.nday{
+    position:absolute;
+    top: 4%;
+    left: 5%;
+}
+.night{
+    background: #172346;
+
+
+}
+
+.day{
+    background: #294b82;
+}
+
+
+.mySlides {
+    display:none;
+}
+
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .content{
+        width: 97%;
+    }
+    .image0{
+        left: 35%;
+        padding-left: 7%; float: none;
+}}
+
+@media only screen and (max-width: 954px) {
+    .video1{
+        float: bottom;
+        padding-right: 30%;
+        padding-top: 10%;
+
+    }}
+
+
